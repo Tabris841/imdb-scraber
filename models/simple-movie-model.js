@@ -34,4 +34,5 @@ SimpleMovieSchema.virtual.imdbUrl = function() {
 
 mongoose.model("SimpleMovie", SimpleMovieSchema);
 SimpleMovie = mongoose.model("SimpleMovie");
+
 module.exports = SimpleMovie;
